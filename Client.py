@@ -8,7 +8,7 @@ import uuid
 #get physical MAC address
 #print (hex(uuid.getnode())) can get it in hexadecimal also
 print ("The MAC address in formatted way is : ", end="")
-print (':'.join(['{:02x}'.format((uuid.getnode() >> ele) & 0xff)
+print (':'.join(['{:02x}'.format((uuid.getnode() >> ele) & 0xff) #Note: In the ClientImage, this code outputed a different MAC address than my own.
 for ele in range(0,8*6,8)][::-1]))#both mac address codes are from geeksforgeeks.org
 
 #set up client socket
