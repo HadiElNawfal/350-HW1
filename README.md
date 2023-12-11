@@ -1,5 +1,37 @@
 # Client-ProxyServer
 
+
+This README provides instructions on how to run the Client and Proxy Server codes.
+
+## Table of Contents
+
+ [Client-Proxy Server](#Client-ProxyServer)
+  - [Table of Contents](#table-of-contents)
+  - [Installation](#installation)
+    - [Prerequisites](#prerequisites)
+    - [Installation Steps](#installation-steps)
+    - [Running the code](#running-the-code)
+
+## Installation
+
+### Prerequisites
+
+Before installing Scapy, make sure you have the following prerequisites:
+
+1. **Python**: Scapy requires Python 3.x. Make sure you have Python installed on your system. You can download Python from the official website: [Python Downloads](https://www.python.org/downloads/).
+
+2. **Pip**: Pip is the package manager for Python. It's usually included with Python, so you should have it available. You can check if Pip is installed by running `pip --version` in your terminal/command prompt.
+
+### Installation Steps
+
+1. Through your terminal or command prompt, install Scapy using pip by running the following command: `pip install scapy`
+
+
+    This will download and install Scapy and its dependencies.
+
+
+2. You can clone both codes, once the installation is complete, using the command: git clone https://github.com/Client-ProxyServer
+
 ## Server:
 * Listens on a port that is specified to receive incoming connections.
 * Analyzes the incoming request to extract the destination server's IP address.
