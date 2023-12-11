@@ -4,12 +4,14 @@
 import socket
 import time
 import uuid
+from getmac import get_mac_address
 
 #get physical MAC address
-#print (hex(uuid.getnode())) can get it in hexadecimal also
-print ("The MAC address in formatted way is : ", end="")
-print (':'.join(['{:02x}'.format((uuid.getnode() >> ele) & 0xff) #Note: In the ClientImage, this code outputed a different MAC address than my own.
-for ele in range(0,8*6,8)][::-1]))#both mac address codes are from geeksforgeeks.org
+def getMac():
+    mac = get_mac_address()
+    return mac
+macAddress = getMac()
+print("MAC Address:", macAddress)
 
 #set up client socket
 def client():
