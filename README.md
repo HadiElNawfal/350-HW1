@@ -24,15 +24,20 @@ Before installing Scapy, make sure you have the following prerequisites:
 
 ### Installation Steps
 
-1. Through your terminal or command prompt, install Scapy using pip by running the following command: `pip install scapy`
-
-
-    This will download and install Scapy and its dependencies.
+1. Through your terminal or command prompt, install Scapy using pip by running the following command: `pip install scapy`. This will download and install Scapy and its dependencies.
 
 
 2. You can clone both codes, once the installation is complete, using the command: git clone https://github.com/Client-ProxyServer
 
-## Server:
+
+## Running the Codes
+
+1. Run the Server code by typing `python Server.py` in a command prompt in the file's directory.
+
+2. Run the Client code by typing `python Client.py` in a command prompt in the file's directory.
+
+### Server:
+The script:
 * Listens on a port that is specified to receive incoming connections.
 * Analyzes the incoming request to extract the destination server's IP address.
 * Generates a message detailing the request, including the IP address and the exact time it was made.
@@ -44,7 +49,8 @@ Before installing Scapy, make sure you have the following prerequisites:
 * Prints a message confirming the response has been sent, including the exact time.
 * If any errors occur either on the client's or server's end, the proxy server notifies the user and returns an error message to the client.
 
-## Client:
+### Client:
+The script:
 * Accepts input for the IP address of the website you want to access.
 * Sends the request to the proxy server.
 * Prints a message displaying the request details and the exact time it was sent.
