@@ -10,7 +10,9 @@ This README provides instructions on how to run the Client and Proxy Server code
   - [Installation](#installation)
     - [Prerequisites](#prerequisites)
     - [Installation Steps](#installation-steps)
-    - [Running the Codes](#running-the-codes)
+  - [Running the Codes](#running-the-codes)
+    - [Server](#Server)
+    - [Client](#Client)
 
 ## Installation
 
