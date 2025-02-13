@@ -16,8 +16,8 @@ This README provides instructions on how to run the Client and Proxy Server code
   - [Limitations and Possible Enhancements](#limitations-and-possible-enhancements)
     - [Limitations](#Limitations)
     - [Enhancements](#Enhancements)
-  - [Sample Output (Client)](#sample-output-(client))
-  - [Sample Output (Server)](#sample-output-(server))
+  - [Sample Output (Client)](#Sample-Output-Client)
+  - [Sample Output (Server)](#Sample-Output-Server)
 
 ## Installation
 
@@ -86,7 +86,7 @@ The script:
 * Multi-Threading or Async Support: Enable the server to manage multiple simultaneous client connections.
 * Logging and Analytics: Integrate more detailed logging, storing logs in a database for future analysis.
 
-## Sample Output (Client)
+## Sample Output Client
 ```
 MAC Address: f0:20:ff:21:ed:50
 Enter website IP: 8.8.8.8  
@@ -98,7 +98,7 @@ Response received from ('192.168.127.1', 8080):
 Round-trip time: 21.024 seconds
 ```
 
-## Sample Output (Server)
+## Sample Output Server
 ```
 Proxy server is running on ('192.168.127.1', 8080)
 Accepted connection from ('192.168.127.1', 55896) 1739481408.4275901
