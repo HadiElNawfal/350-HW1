@@ -34,9 +34,9 @@ Before installing Scapy, make sure you have the following prerequisites:
 
 ## Running the Codes
 
-1. Run the Server code by typing ```python Server.py in a command prompt in the file's directory.
+1. Run the Server code by typing ```python Server.py``` in a terminal in the file's directory.
 
-2. Run the Client code by typing ```python Client.py in a command prompt in the file's directory.
+2. Run the Client code by typing ```python Client.py``` in a terminal in the file's directory.
 
 ### Server:
 The script:
