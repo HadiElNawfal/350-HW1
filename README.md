@@ -13,27 +13,28 @@ This README provides instructions on how to run the Client and Proxy Server code
   - [Running the Codes](#running-the-codes)
     - [Server](#Server)
     - [Client](#Client)
+  - [Features](#features)
+  - [Limitations and Possible Enhancements](#limitations-and-possible-enhancements)
+    - [Limitations](#Limitations)
+    - [Enhancements](#Enhancements)
 
 ## Installation
 
 ### Prerequisites
 
-Before installing Scapy, make sure you have the following prerequisites:
+Make sure you have the following prerequisites:
 
-1. **Python**: Scapy requires Python 3.x. Make sure you have Python installed on your system. You can download Python from the official website: [Python Downloads](https://www.python.org/downloads/).
+1. **Python**: The code requires Python 3.x. Make sure you have Python installed on your system. You can download Python from the official website: [Python Downloads](https://www.python.org/downloads/).
 
 2. **Pip**: Pip is the package manager for Python. It's usually included with Python, so you should have it available. You can check if Pip is installed by running `pip --version` in your terminal/command prompt.
 
 ### Installation Steps
 
-1. Through your terminal or command prompt, install `Scapy` and `getmac` using pip by running the following command:
-```
-pip install scapy
-```
+1. Through your terminal or command prompt, install `getmac` using pip by running the following command:
 ```
 pip install getmac
 ```
-This will download and install Scapy and getmac and their dependencies.
+This will download and install getmac and its dependencies.
 
 
 3. You can clone both codes, once the installation is complete, using the command:
@@ -72,3 +73,17 @@ The script:
 * Receives the reply from the proxy server and present it to the user, indicating the exact time it was received.
 * Calculates and shows the total round-trip time.
 * Displays the user's physical MAC address (not the one from the virtual machine).
+
+## Features
+
+## Limitations and Possible Enhancements
+### Limitations
+* Lack of Encryption: The current implementation does not use TLS, meaning data is sent in plain text and is susceptible to interception.
+* Basic Error Handling: While the proxy notifies on errors, there is no comprehensive mechanism to recover or retry failed requests automatically.
+* Single-Client Focus: The code may need manual scaling to manage larger loads.
+
+### Enhancements
+* Add HTTPS/TLS Support: Implement secure connections by integrating SSL/TLS, ensuring data is encrypted and secure in transit.
+* Multi-Threading or Async Support: Enable the server to manage multiple simultaneous client connections.
+* Logging and Analytics: Integrate more detailed logging, storing logs in a database for future analysis.
+
