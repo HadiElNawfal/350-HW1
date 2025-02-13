@@ -33,11 +33,11 @@ Before installing Scapy, make sure you have the following prerequisites:
 
 
 ## Running the Codes
-
+```
 1. Run the Server code by typing ```python Server.py``` in a terminal in the file's directory.
 
 3. Run the Client code by typing ```python Client.py``` in a terminal in the file's directory.
-
+```
 ### Server:
 The script:
 * Listens on a port that is specified to receive incoming connections.
@@ -59,62 +59,3 @@ The script:
 * Receives the reply from the proxy server and present it to the user, indicating the exact time it was received.
 * Calculates and shows the total round-trip time.
 * Displays the user's physical MAC address (not the one from the virtual machine).
-
-</details>
-
-When you push this to GitHub and view your README on GitHub.com, you’ll see:
-
-1. The code block rendered with syntax highlighting (if you specified a language).
-2. A small “copy” button at the top-right corner of the code block.
-
----
-
-## 2. Verify on GitHub
-
-After committing and pushing your README file (or any `.md` file) to your repository, navigate to your repo on GitHub and open the file. You should see the “copy” icon on the right side of the code block’s header. Clicking it will copy all the contents of that code block to your clipboard.
-
----
-
-## 3. Important Notes
-
-1. **No Extra Setup Required**: The “copy” button is built into GitHub’s Markdown rendering engine. You don’t need extra plugins or scripts.
-
-2. **Language Syntax**: If you add a language identifier (e.g., `bash`, `js`, `python`) after the opening backticks, you’ll get syntax highlighting.  
-   - Examples:  
-     - \`\`\`js  
-       console.log("Hello JS");  
-       \`\`\`  
-     - \`\`\`python  
-       print("Hello Python")  
-       \`\`\`
-
-3. **Where It Works**: This feature appears when browsing code on GitHub’s website (GitHub.com). If you view the same Markdown locally (e.g., in a text editor), the button won’t be present. It’s purely a GitHub.com feature.
-
-4. **Don’t Use Indented Code Blocks**: The copy button only appears for **fenced** code blocks (the triple backtick style). If you indent code for a code block instead (4 spaces), GitHub won’t show the copy button.
-
----
-
-## 4. Example in a README
-
-Here’s a sample README snippet that includes a code block:
-
-<details>
-<summary>Sample README.md content</summary>
-
-```markdown
-# My Project
-
-This project demonstrates how to add a copy button to code blocks on GitHub.
-
-## Usage
-
-```bash
-# Clone the repo
-git clone https://github.com/username/my-project.git
-
-# Change directory
-cd my-project
-
-# Run the script
-./run.sh
-
