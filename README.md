@@ -16,8 +16,8 @@ This README provides instructions on how to run the Client and Proxy Server code
   - [Limitations and Possible Enhancements](#limitations-and-possible-enhancements)
     - [Limitations](#Limitations)
     - [Enhancements](#Enhancements)
-  - [Sample Output (Client)](#sample_output_client)
-  - [Sample Output (Server)](#sample_output_server)
+  - [Sample Output (Client)](#sample-output-(client))
+  - [Sample Output (Server)](#sample-output-(server))
 
 ## Installation
 
