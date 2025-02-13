@@ -26,14 +26,17 @@ Before installing Scapy, make sure you have the following prerequisites:
 
 ### Installation Steps
 
-1. Through your terminal or command prompt, install Scapy using pip by running the following command:
+1. Through your terminal or command prompt, install `Scapy` and `getmac` using pip by running the following command:
 ```
 pip install scapy
 ```
-This will download and install Scapy and its dependencies.
+```
+pip install getmac
+```
+This will download and install Scapy and getmac and their dependencies.
 
 
-4. You can clone both codes, once the installation is complete, using the command:
+3. You can clone both codes, once the installation is complete, using the command:
 ```
 git clone https://github.com/HadiElNawfal/Client-ProxyServer
 ```
