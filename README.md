@@ -36,7 +36,7 @@ pip install getmac
 This will download and install getmac and its dependencies.
 
 
-3. You can clone both codes, once the installation is complete, using the command:
+2. You can clone both codes, once the installation is complete, using the command:
 ```
 git clone https://github.com/HadiElNawfal/Client-ProxyServer
 ```
@@ -47,7 +47,7 @@ git clone https://github.com/HadiElNawfal/Client-ProxyServer
 python Server.py
 ```
 
-3. Run the Client code by typing the following in a terminal in the file's directory:
+2. Run the Client code by typing the following in a terminal in the file's directory:
 ```
 python Client.py
 ```
