@@ -13,7 +13,6 @@ This README provides instructions on how to run the Client and Proxy Server code
   - [Running the Codes](#running-the-codes)
     - [Server](#Server)
     - [Client](#Client)
-  - [Features](#features)
   - [Limitations and Possible Enhancements](#limitations-and-possible-enhancements)
     - [Limitations](#Limitations)
     - [Enhancements](#Enhancements)
@@ -73,8 +72,6 @@ The script:
 * Receives the reply from the proxy server and present it to the user, indicating the exact time it was received.
 * Calculates and shows the total round-trip time.
 * Displays the user's physical MAC address (not the one from the virtual machine).
-
-## Features
 
 ## Limitations and Possible Enhancements
 ### Limitations
