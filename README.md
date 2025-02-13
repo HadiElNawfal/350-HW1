@@ -26,11 +26,17 @@ Before installing Scapy, make sure you have the following prerequisites:
 
 ### Installation Steps
 
-1. Through your terminal or command prompt, install Scapy using pip by running the following command: `pip install scapy`. This will download and install Scapy and its dependencies.
+1. Through your terminal or command prompt, install Scapy using pip by running the following command:
+```
+pip install scapy
+```
+This will download and install Scapy and its dependencies.
 
 
-2. You can clone both codes, once the installation is complete, using the command: git clone https://github.com/HadiElNawfal/Client-ProxyServer
-
+4. You can clone both codes, once the installation is complete, using the command:
+```
+git clone https://github.com/HadiElNawfal/Client-ProxyServer
+```
 
 ## Running the Codes
 1. Run the Server code by typing the following in a terminal in the file's directory:
